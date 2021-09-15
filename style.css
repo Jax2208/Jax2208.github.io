@@ -1,0 +1,30 @@
+      body, html {
+        height: 100%;
+        margin: 0;
+      }
+      
+      .mainbg {
+        /* The image used */
+        background-image: url("images/mainbg.jpg");
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .apibg {
+        /* The image used */
+        background-image: url("images/apibg.jpg");
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
