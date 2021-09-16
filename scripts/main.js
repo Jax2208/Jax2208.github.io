@@ -1,10 +1,10 @@
-//all the pages for the navbar
 const app = Vue.createApp({
     components: {
     'nav-bar': Vue.defineAsyncComponent( () => loadVueFile('./components/navbar.vue') ),
     'home': Vue.defineAsyncComponent( () => loadVueFile('./components/home.vue') ),
-    'game': Vue.defineAsyncComponent( () => loadVueFile('./components/game.vue') ),
-    'api': Vue.defineAsyncComponent( () => loadVueFile('./components/api.vue') ),
+    'games': Vue.defineAsyncComponent( () => loadVueFile('./components/games.vue') ),
+    'tfapi': Vue.defineAsyncComponent( () => loadVueFile('./components/tfapi.vue') ),
+    'calc': Vue.defineAsyncComponent( () => loadVueFile('./components/calculator.vue') ),
   }
 });
 

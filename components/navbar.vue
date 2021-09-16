@@ -12,10 +12,13 @@
       <a class="nav-link" href="index.html">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Games</a>
+      <a class="nav-link" href="./MGames.html">My Games</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="./api.html">True or False</a>
+      <a class="nav-link" href="./tfapi.html">True or False</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./calculator.html">Calculator</a>
     </li>
   </ul>
 </nav>
