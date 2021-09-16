@@ -4,7 +4,7 @@ const app = Vue.createApp({
     'home': Vue.defineAsyncComponent( () => loadVueFile('./components/home.vue') ),
     'games': Vue.defineAsyncComponent( () => loadVueFile('./components/games.vue') ),
     'tfapi': Vue.defineAsyncComponent( () => loadVueFile('./components/tfapi.vue') ),
-    'calc': Vue.defineAsyncComponent( () => loadVueFile('./components/calculator.vue') ),
+    'calc': Vue.defineAsyncComponent( () => loadVueFile('components/calculator.vue') ),
   }
 });
 
