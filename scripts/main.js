@@ -1,9 +1,9 @@
 const app = Vue.createApp({
     components: {
     'nav-bar': Vue.defineAsyncComponent( () => loadVueFile('./components/navbar.vue') ),
-    'home': Vue.defineAsyncComponent( () => loadVueFile('./components/home.vue') ),
-    'games': Vue.defineAsyncComponent( () => loadVueFile('./components/games.vue') ),
-    'tfapi': Vue.defineAsyncComponent( () => loadVueFile('./components/tfapi.vue') ),
+    'home': Vue.defineAsyncComponent( () => loadVueFile('components/home.vue') ),
+    'games': Vue.defineAsyncComponent( () => loadVueFile('components/games.vue') ),
+    'tfapi': Vue.defineAsyncComponent( () => loadVueFile('components/tfapi.vue') ),
     'calc': Vue.defineAsyncComponent( () => loadVueFile('components/calculator.vue') ),
   }
 });
